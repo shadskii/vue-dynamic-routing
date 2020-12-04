@@ -12,8 +12,11 @@ const routes = [
     component: Home
   },
   {
+    /**
+     * index is the dynamic route param
+     * The Dynamic view component manages which page to render based on the index route param
+     */
     path: "/dynamic/:index",
-    name: "dynamic",
     component: Dynamic
   }
 ];
